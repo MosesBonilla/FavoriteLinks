@@ -11,6 +11,7 @@ const Form = () => {
     // to prevent page reload on form submit
     event.preventDefault()
 
+    
     /*
             TODO - Logic for calling props to handle submission and setting state changes
         */
