@@ -1,6 +1,6 @@
 import { useState } from 'react'
-// import Table from './Table';
-// import Form from './Form';
+import Table from './Table';
+import Form from './Form'; 
 
 const LinkContainer = (props) => {
   const handleRemove = (index) => {
