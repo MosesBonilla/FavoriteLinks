@@ -5,15 +5,16 @@ const Form = () => {
     /*
             TODO - Logic for changing state based on form changes
         */
-       const handleURLCh=(event)=>{
+       const handleURLCh = (event) => {
+       
         setURLcord(event.target.value)
        }
-       const handleURLname=(event)=>{
+       const handleURLname = (event) => {
         setURLname(event.target.value)
        }
   }
-const [urlName, setURLname]= useState(``)
-const [urlCord, setURLcord]= useState(``)
+const [urlName, setURLname] = useState(``)
+const [urlCord, setURLcord] = useState(``)
   const onFormSubmit = (event) => {
     // to prevent page reload on form submit
     event.preventDefault()
@@ -22,11 +23,11 @@ const [urlCord, setURLcord]= useState(``)
     /*
             TODO - Logic for calling props to handle submission and setting state changes
         */
-    const handleURLcord=(event)=>{
+    const handleURLcord = (event) => {
       console.log(event)
       setURLcord(event.target.value)
     }
-    const handleURLname=(event)=>{
+    const handleURLname = (event) => {
       setURLname(event.target.value)
     }
   }
