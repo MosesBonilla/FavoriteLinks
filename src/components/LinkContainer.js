@@ -19,12 +19,12 @@ const LinkContainer = (props) => {
     <div className="container">
       <h1>My Favorite Links</h1>
       <p>Add a new url with a name and link to the table.</p>
-      {/*TODO - Add Table Component */}
+      {<Table /> /*TODO - Add Table Component */}
 
       <br />
 
       <h3>Add New</h3>
-      {/*TODO - Add Form Component */}
+      {<Form /> /*TODO - Add Form Component */}
     </div>
   )
 }
